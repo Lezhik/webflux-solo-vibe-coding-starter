@@ -232,4 +232,4 @@ tasks.register<Exec>("verifyFeatureLinks") {
 
 ---
 
-> **Key Innovation:** Seamlessly blends LLM planning with automated GitOps, ensuring vibe-infused, traceable development across reactive stacks. For questions, reference [Vibe Coding Guidelines](../rules/01-principles/05-vibe-coding.md) or [Feature Lifecycle](../rules/04-workflow/13-feature-lifecycle.md).
+> **Key Innovation:** Seamlessly blends LLM planning with automated GitOps, ensuring vibe-infused, traceable development across reactive stacks. For questions, reference [Vibe Coding Guidelines](../rules/02-semantics/05-vibe-coding.md) or [Feature Lifecycle](../rules/04-workflow/13-feature-lifecycle.md).
