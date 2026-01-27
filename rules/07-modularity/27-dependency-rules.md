@@ -1,12 +1,12 @@
 # 26 – Dependency Rules for Modular Architecture
 
-**File Path:** rules/07-modularity/26-dependency-rules.md  
+**File Path:** rules/07-modularity/27-dependency-rules.md  
 **Domain:** TODO: <fill with project domain, e.g., "E-commerce payment processing">  
 **Last Updated:** 2026-01-25
 **Status:** Active  
 
 <!-- FILE_TITLE: Modular Dependency Governance -->  
-<!-- FILE_PATH: rules/07-modularity/26-dependency-rules.md -->
+<!-- FILE_PATH: rules/07-modularity/27-dependency-rules.md -->
 
 ---
 

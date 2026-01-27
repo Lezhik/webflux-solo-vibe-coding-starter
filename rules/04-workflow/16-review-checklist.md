@@ -130,7 +130,7 @@ npm run test:coverage  # Ensure ≥80%
 - **Naming & Semantics:** Cross-validate with [06-naming-conventions.md](/rules/02-semantics/06-naming-conventions.md).  
 - **Testing:** Follow [17-test-pyramid.md](/rules/05-test-strategy/17-test-pyramid.md) and [20-test-data-profiles.md](/rules/05-test-strategy/20-test-data-profiles.md).  
 - **Build & Resources:** Align with [22-gradle-multimodule.md](/rules/06-build/22-gradle-multimodule.md) and [23-static-resources.md](/rules/06-build/23-static-resources.md).  
-- **Discoverability:** Post-merge audit via [28-semantic-discoverability.md](/rules/02-semantics/28-semantic-discoverability.md).
+- **Discoverability:** Post-merge audit via [29-semantic-discoverability.md](/rules/02-semantics/29-semantic-discoverability.md).
 
 ---
 

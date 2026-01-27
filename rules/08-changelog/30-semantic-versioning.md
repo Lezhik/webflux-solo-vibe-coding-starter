@@ -1,8 +1,8 @@
 # 29 – Semantic Versioning Policy
 <!-- FILE_TITLE: Semantic Versioning Guidelines for Kilo Code -->
-<!-- FILE_PATH: rules/08-changelog/29-semantic-versioning.md -->
+<!-- FILE_PATH: rules/08-changelog/30-semantic-versioning.md -->
 
-**File Path:** rules/08-changelog/29-semantic-versioning.md  
+**File Path:** rules/08-changelog/30-semantic-versioning.md  
 **Domain:** TODO: <Project Domain, e.g., "Modular E-commerce Payments Platform">  
 **Last Updated:** 2026-01-25
 **Status:** Active  

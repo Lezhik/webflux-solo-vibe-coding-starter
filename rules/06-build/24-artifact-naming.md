@@ -19,7 +19,7 @@ Establish deterministic, verifiable naming conventions for build artifacts to en
 - **Dependencies:** 
   - [22-gradle-multimodule.md](22-gradle-multimodule.md) (build sequencing).
   - [23-static-resources.md](23-static-resources.md) (asset bundling).
-  - [29-semantic-versioning.md](/rules/08-changelog/29-semantic-versioning.md) (version format: MAJOR.MINOR.PATCH).
+  - [30-semantic-versioning.md](/rules/08-changelog/30-semantic-versioning.md) (version format: MAJOR.MINOR.PATCH).
 
 ---
 
@@ -166,7 +166,7 @@ Avoid hardcoded versions; always reference `project.version` or equivalents.
 ## 🔗 Interlocks
 - **Build Structure**: Builds on multi-module setup from [22-gradle-multimodule.md](22-gradle-multimodule.md).
 - **Asset Management**: Integrates with bundling rules in [23-static-resources.md](23-static-resources.md).
-- **Versioning**: Strictly follows [29-semantic-versioning.md](/rules/08-changelog/29-semantic-versioning.md) for release increments.
+- **Versioning**: Strictly follows [30-semantic-versioning.md](/rules/08-changelog/30-semantic-versioning.md) for release increments.
 - **Naming Conventions**: Consistent with general rules in [06-naming-conventions.md](/rules/01-general/06-naming-conventions.md).
 
 ---

@@ -1,12 +1,12 @@
 # 27 – Refactoring Guidelines for Semantic Modular Architecture
 
-**File Path:** rules/07-modularity/27-refactoring-guidelines.md  
+**File Path:** rules/07-modularity/28-refactoring-guidelines.md  
 **Domain:** TODO: <fill with project domain, e.g., "Reactive e-commerce platform">  
 **Last Updated:** 2026-01-25
 **Status:** Draft  
 
 <!-- FILE_TITLE: Refactoring Guidelines for Semantic Modular Architecture -->  
-<!-- FILE_PATH: rules/07-modularity/27-refactoring-guidelines.md -->  
+<!-- FILE_PATH: rules/07-modularity/28-refactoring-guidelines.md -->  
 
 ---
 
@@ -19,7 +19,7 @@ Establish principled, safe refactoring practices that evolve modular boundaries 
 - **Dependencies:**  
   - [04-modular-architecture.md](04-modular-architecture.md) (core boundaries)  
   - [06-naming-conventions.md](06-naming-conventions.md) (naming standards)  
-  - [26-dependency-rules.md](26-dependency-rules.md) (dependency management)  
+  - [27-dependency-rules.md](27-dependency-rules.md) (dependency management)  
 
 ---
 

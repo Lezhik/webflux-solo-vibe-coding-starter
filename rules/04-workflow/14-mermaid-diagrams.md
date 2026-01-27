@@ -241,7 +241,7 @@ docs/architecture/
 
 ## 🔗 Interlocks with Other Rules  
 - **Semantics:** Aligns with [07-semantic-comments.md](/rules/02-semantics/07-semantic-comments.md) for tag consistency (e.g., `@Vibe` in code comments).  
-- **Modularity:** References [04-modular-architecture.md](/rules/01-project/04-modular-architecture.md) and [28-semantic-discoverability.md](/rules/07-modularity/28-semantic-discoverability.md) for domain boundaries.  
+- **Modularity:** References [04-modular-architecture.md](/rules/01-project/04-modular-architecture.md) and [29-semantic-discoverability.md](/rules/07-modularity/29-semantic-discoverability.md) for domain boundaries.  
 - **Lifecycle:** Integrates with [13-feature-lifecycle.md](/rules/04-workflow/13-feature-lifecycle.md) – diagrams required at "Spec Review" stage.  
 - **Build:** Enforced in [22-gradle-multimodule.md](/rules/06-build/22-gradle-multimodule.md) pipelines.  
 - **Reviews:** Mandatory in [16-review-checklist.md](/rules/04-workflow/16-review-checklist.md).  

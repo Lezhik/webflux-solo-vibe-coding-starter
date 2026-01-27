@@ -17,50 +17,51 @@ The directory is organized into categories for foundational setup, semantics, co
 
 ```
 rules/
-├── 01-project/                  # Foundational setup and constraints
-│   ├── 01-project-overview.md   # Goals, scope, domain context (e.g., "Secure user payments via Stripe")
-│   ├── 02-technology-stack.md   # Versions: Java 17+, Spring Boot 3.2, Vue 3.4, MongoDB 7, Gradle 8+
-│   ├── 03-folder-structure.md   # Monorepo layout rules (e.g., backend/frontend split, static resources in /src/main/resources/static)
-│   └── 04-modular-architecture.md # Boundaries: <domain>-module (e.g., user-module); no circular deps; DTO-only inter-module comms
+├── 01-project/                        # Foundational setup and constraints
+│   ├── 01-project-overview.md         # Goals, scope, domain context (e.g., "Secure user payments via Stripe")
+│   ├── 02-technology-stack.md         # Versions: Java 17+, Spring Boot 3.2, Vue 3.4, MongoDB 7, Gradle 8+
+│   ├── 03-folder-structure.md         # Monorepo layout rules (e.g., backend/frontend split, static resources in /src/main/resources/static)
+│   └── 04-modular-architecture.md     # Boundaries: <domain>-module (e.g., user-module); no circular deps; DTO-only inter-module comms
 │
-├── 02-semantics/                # Vibe coding core: Naming and markup
-│   ├── 05-vibe-coding.md        # Principles: Semantic intent in names (e.g., fetchActiveUserStream for Flux<User>)
-│   ├── 06-naming-conventions.md # Suffixes: DTO/Entity; async markers (e.g., *Async); Vue props (typed with guards)
-│   ├── 07-semantic-comments.md  # JSDoc/Javadoc templates: Focus on "why" (e.g., "// Why: Prevents race conditions in concurrent updates")
-│   └── 08-code-section-ordering.md # Mandatory structure: Imports → Constants → Domain → Logic → Exports
+├── 02-semantics/                      # Vibe coding core: Naming and markup
+│   ├── 05-vibe-coding.md              # Principles: Semantic intent in names (e.g., fetchActiveUserStream for Flux<User>)
+│   ├── 06-naming-conventions.md       # Suffixes: DTO/Entity; async markers (e.g., *Async); Vue props (typed with guards)
+│   ├── 07-semantic-comments.md        # JSDoc/Javadoc templates: Focus on "why" (e.g., "// Why: Prevents race conditions in concurrent updates")
+│   └── 08-code-section-ordering.md    # Mandatory structure: Imports → Constants → Domain → Logic → Exports
 │
-├── 03-coding-standards/         # Language-specific rules
-│   ├── 09-java-style.md         # WebFlux: Reactive patterns (e.g., Mono/Flux naming); Lombok for boilerplate; 4-space indent
-│   ├── 10-typescript-style.md   # Vue SFC: <script setup lang="ts"> with typed props/emits; <style scoped>; strict typing
-│   ├── 11-html-css-rules.md     # Static assets: <script src="/static/v1/app.js" defer>; no inline JS; scoped CSS only
-│   └── 12-annotations.md        # Custom tags: @dataflow for streams, @Semantic("AggregateRoot") for entities; @Vibe for logging
+├── 03-coding-standards/               # Language-specific rules
+│   ├── 09-java-style.md               # WebFlux: Reactive patterns (e.g., Mono/Flux naming); Lombok for boilerplate; 4-space indent
+│   ├── 10-typescript-style.md         # Vue SFC: <script setup lang="ts"> with typed props/emits; <style scoped>; strict typing
+│   ├── 11-html-css-rules.md           # Static assets: <script src="/static/v1/app.js" defer>; no inline JS; scoped CSS only
+│   └── 12-annotations.md              # Custom tags: @dataflow for streams, @Semantic("AggregateRoot") for entities; @Vibe for logging
 │
-├── 04-workflow/                 # Mini-sprint feature lifecycle
-│   ├── 13-feature-lifecycle.md  # 7-step flow: 1. Branch (feat/user-authn) → 2. Mermaid spec → 3. Models/DTOs → 4. Test Data Profiles → 5. Tests → 6. Logic → 7. Review
-│   ├── 14-mermaid-diagrams.md   # Syntax: Flow/sequence standards (e.g., graph TD; A-->B; style A fill:#f9f)
-│   ├── 15-feature-repo-index.md # Nested folders in /features/ (e.g., features/search/models/); one feature per sprint
-│   └── 16-review-checklist.md   # Pre-merge: Naming validation, diagram presence, test coverage (e.g., 80% min)
+├── 04-workflow/                       # Mini-sprint feature lifecycle
+│   ├── 13-feature-lifecycle.md        # 7-step flow: 1. Branch (feat/user-authn) → 2. Mermaid spec → 3. Models/DTOs → 4. Test Data Profiles → 5. Tests → 6. Logic → 7. Review
+│   ├── 14-mermaid-diagrams.md         # Syntax: Flow/sequence standards (e.g., graph TD; A-->B; style A fill:#f9f)
+│   ├── 15-feature-repo-index.md       # Nested folders in /features/ (e.g., features/search/models/); one feature per sprint
+│   └── 16-review-checklist.md         # Pre-merge: Naming validation, diagram presence, test coverage (e.g., 80% min)
 │
-├── 05-test-strategy/            # Testing mandates and pyramid enforcement
-│   ├── 17-test-pyramid.md       # Ratios: 70% unit (JUnit/Mockito), 20% integration (Testcontainers for Mongo), 10% e2e (Cypress/Vue Testing Lib)
-│   ├── 18-unit-testing.md       # Parameterized tests; @MockBean for services; no in-test data gen (use profiles)
-│   ├── 19-e2e-testing.md        # Full flows with data seeding; WebFlux handler mocks via JSON fixtures
-│   ├── 20-test-data-profiles.md # Naming: <feature>_<context>.yml (e.g., auth_edge_cases.yml); activate via @ActiveProfiles
-│   └── 21-boundary-scenarios.md # Tables for negatives (e.g., | Input | Expected | Why Fail |)
+├── 05-test-strategy/                  # Testing mandates and pyramid enforcement
+│   ├── 17-test-pyramid.md             # Ratios: 70% unit (JUnit/Mockito), 20% integration (Testcontainers for Mongo), 10% e2e (Cypress/Vue Testing Lib)
+│   ├── 18-unit-testing.md             # Parameterized tests; @MockBean for services; no in-test data gen (use profiles)
+│   ├── 19-e2e-testing.md              # Full flows with data seeding; WebFlux handler mocks via JSON fixtures
+│   ├── 20-test-data-profiles.md       # Naming: <feature>_<context>.yml (e.g., auth_edge_cases.yml); activate via @ActiveProfiles
+│   └── 21-boundary-scenarios.md       # Tables for negatives (e.g., | Input | Expected | Why Fail |)
 │
-├── 06-build/                    # CI/CD and integration
-│   ├── 22-gradle-multimodule.md # Task sequencing: compileJava → compileTypeScript → test → assemble; frontend hooks (e.g., vite build)
-│   ├── 23-static-resources.md   # Vue assets to /src/main/resources/static; cache busting via version tokens (e.g., /static/v2/)
-│   ├── 24-artifact-naming.md    # JARs: kilo-code-<module>-<version>.jar; test flags (-PtestProfile=user-authn)
-│   └── 25-data-migration.md     # Versioned fixtures for DB seeding (e.g., mongo-init/v1/users.yml)
+├── 06-build/                          # CI/CD and integration
+│   ├── 22-gradle-multimodule.md       # Task sequencing: compileJava → compileTypeScript → test → assemble; frontend hooks (e.g., vite build)
+│   ├── 23-static-resources.md         # Vue assets to /src/main/resources/static; cache busting via version tokens (e.g., /static/v2/)
+│   ├── 24-artifact-naming.md          # JARs: <project-name>-<module>-<version>.jar; test flags (-PtestProfile=user-authn)
+│   ├── 25-data-migration.md           # Versioned fixtures for DB seeding (e.g., mongo-init/v1/users.yml)
+│   └── 26-docker.md                   # Packaging application to docker containers and installation to server
 │
-├── 07-modularity/               # Advanced architecture
-│   ├── 26-dependency-rules.md   # Allowed: domain → svc; Forbidden: ctrl → repo; enforce via Gradle deps
-│   ├── 27-refactoring-guidelines.md # Split/merge rules without breaking semantics (e.g., extract Flux pipelines)
-│   └── 28-semantic-discoverability.md # Infer behavior from names alone (e.g., stream* for events, validate* for checks)
+├── 07-modularity/                     # Advanced architecture
+│   ├── 27-dependency-rules.md         # Allowed: domain → svc; Forbidden: ctrl → repo; enforce via Gradle deps
+│   ├── 28-refactoring-guidelines.md   # Split/merge rules without breaking semantics (e.g., extract Flux pipelines)
+│   └── 29-semantic-discoverability.md # Infer behavior from names alone (e.g., stream* for events, validate* for checks)
 │
-└── 08-changelog/                 # Release practices
-    └── 29-semantic-versioning.md # Bump criteria: major (breaking), minor (feat), patch (fix); link to features/
+└── 08-changelog/                      # Release practices
+    └── 30-semantic-versioning.md      # Bump criteria: major (breaking), minor (feat), patch (fix); link to features/
 ```
 
 ---

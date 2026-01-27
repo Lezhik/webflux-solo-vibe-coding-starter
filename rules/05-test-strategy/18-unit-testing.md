@@ -167,7 +167,7 @@ tasks.register("verifyUnitSemantics") {
 - **Test Data Management:** [20-test-data-profiles.md](#) for standardized fixtures.  
 - **Test Pyramid Alignment:** [17-test-pyramid.md](#) for strategy integration.  
 - **Build and Reviews:** [22-gradle-multimodule.md](#) and [16-review-checklist.md](#) for CI/CD hooks.  
-- **Versioning:** [29-semantic-versioning.md](#) for test evolution tracking.  
+- **Versioning:** [30-semantic-versioning.md](#) for test evolution tracking.  
 
 ---
 

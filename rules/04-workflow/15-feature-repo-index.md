@@ -15,7 +15,7 @@ This guideline standardizes the organization, naming, versioning, and lifecycle 
 ## 📌 Scope  
 - **Applies to:** All new features developed under `/features/`.  
 - **Excludes:** Legacy modules, infrastructure code, third-party integrations, or non-feature directories (e.g., core utilities).  
-- **Dependencies:** [06-naming-conventions.md](../02-semantics/06-naming-conventions.md), [13-feature-lifecycle.md](../04-workflow/13-feature-lifecycle.md), [14-mermaid-diagrams.md](../04-workflow/14-mermaid-diagrams.md), [20-test-data-profiles.md](../05-test-strategy/20-test-data-profiles.md), [22-gradle-multimodule.md](../06-build/22-gradle-multimodule.md), [26-dependency-rules.md](../07-modularity/26-dependency-rules.md).  
+- **Dependencies:** [06-naming-conventions.md](../02-semantics/06-naming-conventions.md), [13-feature-lifecycle.md](../04-workflow/13-feature-lifecycle.md), [14-mermaid-diagrams.md](../04-workflow/14-mermaid-diagrams.md), [20-test-data-profiles.md](../05-test-strategy/20-test-data-profiles.md), [22-gradle-multimodule.md](../06-build/22-gradle-multimodule.md), [27-dependency-rules.md](../07-modularity/27-dependency-rules.md).  
 
 ---
 
@@ -245,7 +245,7 @@ jobs:
 - **Lifecycle & Tasks:** [13-feature-lifecycle.md](../04-workflow/13-feature-lifecycle.md) for merge processes.  
 - **Diagrams:** [14-mermaid-diagrams.md](../04-workflow/14-mermaid-diagrams.md) for syntax.  
 - **Testing:** [20-test-data-profiles.md](../05-test-data-profiles.md) for YAML conventions.  
-- **Build & Modularity:** [22-gradle-multimodule.md](../06-build/22-gradle-multimodule.md), [26-dependency-rules.md](../07-modularity/26-dependency-rules.md).  
+- **Build & Modularity:** [22-gradle-multimodule.md](../06-build/22-gradle-multimodule.md), [27-dependency-rules.md](../07-modularity/27-dependency-rules.md).  
 - **Reviews:** [16-review-checklist.md](../04-workflow/16-review-checklist.md) for PR gates.  
 
 ---

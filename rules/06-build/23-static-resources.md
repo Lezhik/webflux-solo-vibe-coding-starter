@@ -19,7 +19,7 @@ Establishes standards for delivering static assets (e.g., compiled Vue JS/CSS bu
 - **Dependencies:** 
   - `22-gradle-multimodule.md` (multimodule build sequencing and asset copying)
   - `11-html-css-rules.md` (enforcement against inline assets)
-  - `29-semantic-versioning.md` (project version alignment)
+  - `30-semantic-versioning.md` (project version alignment)
 
 ---
 
@@ -168,7 +168,7 @@ Frontend Build → dist/v1.2/ → Gradle Copy → backend/src/main/resources/sta
 
 ## 🔗 Interlocks
 - **Build Sequencing:** Frontend must build before backend assembly (`22-gradle-multimodule.md`).
-- **Version Alignment:** Asset paths sync with project semver (`29-semantic-versioning.md`).
+- **Version Alignment:** Asset paths sync with project semver (`30-semantic-versioning.md`).
 - **Testing:** Include static asset checks in E2E/Cypress flows (`19-e2e-testing.md`).
 - **HTML Rules:** No inline assets to avoid security/performance issues (`11-html-css-rules.md`).
 
@@ -176,7 +176,7 @@ Frontend Build → dist/v1.2/ → Gradle Copy → backend/src/main/resources/sta
 | Linked Rule                  | Type             | Verification Step                    |
 |------------------------------|------------------|--------------------------------------|
 | `22-gradle-multimodule.md`   | Prerequisite     | `:frontend:build` precedes copy task |
-| `29-semantic-versioning.md`  | Sync             | Paths use `${project.version}`       |
+| `30-semantic-versioning.md`  | Sync             | Paths use `${project.version}`       |
 | `19-e2e-testing.md`          | Post-Deployment  | Test HTTP 200 on `/static/v1.2/**`   |
 | `11-html-css-rules.md`       | Reference Style  | ESLint blocks non-versioned refs     |
 

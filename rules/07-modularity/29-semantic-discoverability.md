@@ -1,6 +1,6 @@
 # 28 – Semantic Discoverability
 
-**File Path:** rules/07-modularity/28-semantic-discoverability.md  
+**File Path:** rules/07-modularity/29-semantic-discoverability.md  
 **Domain:** TODO: <Provide business domain, e.g., "E-commerce order management">  
 **Last Updated:** 2026-01-25
 **Status:** Active  
@@ -15,7 +15,7 @@ Enable developers, AI tools (e.g., LLMs), and automated systems to quickly infer
 ## 📌 Scope  
 - **Applies to:** All Java/WebFlux services, Vue components, TypeScript utilities, and cross-stack DTOs in modular components.  
 - **Excludes:** Third-party libraries, generated code, CI/CD configuration files, and internal tooling metadata.  
-- **Dependencies:** Aligns with [06-naming-conventions.md](../02-semantics/06-naming-conventions.md) and [26-dependency-rules.md](../07-modularity/26-dependency-rules.md).  
+- **Dependencies:** Aligns with [06-naming-conventions.md](../02-semantics/06-naming-conventions.md) and [27-dependency-rules.md](../07-modularity/27-dependency-rules.md).  
 
 ---
 
@@ -174,7 +174,7 @@ defineProps<Props>();
 
 ## 🔗 Interlocks  
 - **Naming DNA:** Extends suffix/prefix rules from [06-naming-conventions.md](../02-semantics/06-naming-conventions.md).  
-- **Modularity Boundaries:** Complements dependency isolation in [26-dependency-rules.md](../07-modularity/26-dependency-rules.md) and [04-modular-architecture.md](../01-project/04-modular-architecture.md).  
+- **Modularity Boundaries:** Complements dependency isolation in [27-dependency-rules.md](../07-modularity/27-dependency-rules.md) and [04-modular-architecture.md](../01-project/04-modular-architecture.md).  
 - **Build & Frontend Standards:** Ties into Gradle multimodule setup [22-gradle-multimodule.md](../06-build/22-gradle-multimodule.md) and TS styling [10-typescript-style.md](../03-coding-standards/10-typescript-style.md).  
 
 ---

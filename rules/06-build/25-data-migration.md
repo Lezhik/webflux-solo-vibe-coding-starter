@@ -172,7 +172,7 @@ src/
 ---
 
 ## 🔗 Interlocks
-- **Versioning Alignment:** Follows semantic versioning from `rules/02-semantics/29-semantic-versioning.md`.
+- **Versioning Alignment:** Follows semantic versioning from `rules/02-semantics/30-semantic-versioning.md`.
 - **Build Pipeline:** Executes post-compilation in multi-module setups (`22-gradle-multimodule.md`).
 - **Testing Integration:** Fixtures feed into boundary tests (`rules/05-test-strategy/21-boundary-scenarios.md`).
 - **Semantics:** Adheres to naming conventions in `rules/02-semantics/06-naming-conventions.md`.
