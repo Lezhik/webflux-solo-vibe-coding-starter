@@ -1,7 +1,7 @@
 # 14 – Mermaid Diagrams – Semantic Visual Standards
 
 **File Path:** rules/04-workflow/14-mermaid-diagrams.md  
-**Domain:** TODO: <Project Domain, e.g., "E-commerce Order Processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23
 **Status:** Active  
 

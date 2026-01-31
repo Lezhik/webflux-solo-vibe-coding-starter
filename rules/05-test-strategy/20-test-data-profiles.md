@@ -1,7 +1,7 @@
 # 20 – Test Data Profiles – Semantic Fixtures & Activation
 
 **File Path:** rules/05-test-strategy/20-test-data-profiles.md  
-**Domain:** TODO: <fill with project domain, e.g., "E-commerce payment processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
 **Status:** Active  
 

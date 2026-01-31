@@ -1,7 +1,7 @@
 # 08 – Code Section Ordering: Mandatory Structure for Semantic Consistency
 
 **File Path:** `rules/02-semantics/08-code-section-ordering.md`  
-**Domain:** TODO: <Specify domain context, e.g., "E-commerce payment processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22
 **Status:** Active  
 

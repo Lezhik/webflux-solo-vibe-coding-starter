@@ -1,6 +1,6 @@
 # 17 – Test Pyramid Strategy  
 **File Path:** rules/05-test-strategy/17-test-pyramid.md  
-**Domain:** Secure Payment Processing (e.g., Stripe-integrated e-commerce transactions)  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
 **Status:** Active  
 

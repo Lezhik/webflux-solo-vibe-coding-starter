@@ -1,7 +1,7 @@
 # 22 – Gradle Multimodule Build Configuration
 
 **File Path:** rules/06-build/22-gradle-multimodule.md  
-**Domain:** TODO: [Specify business domain, e.g., "Secure E-commerce Payment Processing"]  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

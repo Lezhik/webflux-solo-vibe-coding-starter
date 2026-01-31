@@ -1,7 +1,7 @@
 # 27 – Refactoring Guidelines for Semantic Modular Architecture
 
 **File Path:** rules/07-modularity/28-refactoring-guidelines.md  
-**Domain:** TODO: <fill with project domain, e.g., "Reactive e-commerce platform">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Draft  
 

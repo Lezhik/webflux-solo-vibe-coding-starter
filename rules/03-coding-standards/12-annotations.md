@@ -1,7 +1,7 @@
 # 12 – Semantic Annotations – Cross-Stack Intent and Flow Markers
 
 **File Path:** rules/03-coding-standards/12-annotations.md  
-**Domain:** TODO: <Insert Business Context> (e.g., "E-commerce payment processing")  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23  
 **Status:** Active  
 

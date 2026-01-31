@@ -1,7 +1,7 @@
 # 26 – Docker Containerization & Production Deployment
 
 **File Path:** rules/06-build/26-docker.md  
-**Domain:** Containerized Deployment & CI/CD Automation  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-27
 **Status:** Active  
 **Owner:** @architecture-team  

@@ -1,7 +1,7 @@
 # 03 – Folder Structure – Monorepo Layout, Task-Driven Features & Lifecycle Automation
 
 **File Path:** rules/01-project/03-folder-structure.md  
-**Domain:** Payment Fraud Detection  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22  
 **Status:** Active  
 

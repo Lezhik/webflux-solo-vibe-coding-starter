@@ -1,6 +1,6 @@
 # 25 – Data Migration – Versioned Seeding
 **File Path:** rules/06-build/25-data-migration.md  
-**Domain:** TODO: <Fill with project-specific domain, e.g., "E-commerce platform backend">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

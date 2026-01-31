@@ -1,7 +1,7 @@
 # 07 - Semantic Comments - Intent-Driven Documentation and Vibe Storytelling
 
 **File Path:** rules/02-semantics/07-semantic-comments.md  
-**Domain:** E-commerce Payment Processing (e.g., secure Stripe integrations with reactive streams for high-volume transactions)  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22  
 **Status:** Active  
 

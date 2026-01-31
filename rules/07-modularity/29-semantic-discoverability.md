@@ -1,7 +1,7 @@
 # 28 – Semantic Discoverability
 
 **File Path:** rules/07-modularity/29-semantic-discoverability.md  
-**Domain:** TODO: <Provide business domain, e.g., "E-commerce order management">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

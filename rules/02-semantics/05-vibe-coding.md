@@ -1,6 +1,6 @@
 # 05 – Vibe Coding Principles
 **File Path:** rules/02-semantics/05-vibe-coding.md  
-**Domain:** TODO: <Project Domain, e.g., "E-commerce payments">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22  
 **Status:** Active  
 

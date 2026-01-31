@@ -1,6 +1,6 @@
 # 09 – Java Style Guide – WebFlux & Semantic Coding  
 **File Path:** rules/03-coding-standards/09-java-style.md  
-**Domain:** TODO: [Business Context – e.g., "Reactive payment processing backend"]  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23  
 **Status:** Draft  
 

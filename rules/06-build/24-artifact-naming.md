@@ -1,7 +1,7 @@
 # 24 – Artifact Naming & Versioning Standards
 
 **File Path:** rules/06-build/24-artifact-naming.md  
-**Domain:** TODO: <Project Name> (e.g., "E-commerce Payment Gateway")  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

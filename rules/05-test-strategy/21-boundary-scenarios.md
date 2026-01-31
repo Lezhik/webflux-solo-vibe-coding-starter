@@ -1,7 +1,7 @@
 # 21 – Boundary Scenarios – Testing Edge Cases
 
 **File Path:** rules/05-test-strategy/21-boundary-scenarios.md  
-**Domain:** TODO: [Project Domain - e.g., "Secure payment processing in e-commerce"]  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
 **Status:** Draft  
 

@@ -1,7 +1,7 @@
 # 18 – Unit Testing Standards
 
 **File Path:** rules/05-test-strategy/18-unit-testing.md  
-**Domain:** TODO: <Insert project domain context, e.g., "E-commerce Payment Processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
 **Status:** Active  
 

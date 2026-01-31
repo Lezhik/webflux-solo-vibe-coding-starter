@@ -1,7 +1,7 @@
 # 19 – End-to-End Testing – Flow Validation in Reactive Ecosystem
 
 **File Path:** rules/05-test-strategy/19-e2e-testing.md  
-**Domain:** TODO: <Business Context, e.g., "E-commerce payment processing with real-time updates">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
 **Status:** Draft  
 

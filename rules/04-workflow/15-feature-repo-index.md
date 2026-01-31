@@ -1,7 +1,7 @@
 # 15 – Feature Repository Index – Structure & Guidelines
 
 **File Path:** rules/04-workflow/15-feature-repo-index.md  
-**Domain:** Payment Fraud Detection  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-26  
 **Status:** Active  
 

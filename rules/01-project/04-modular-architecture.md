@@ -1,7 +1,7 @@
 # 04 – Modular Architecture – Boundaries & Domain Isolation
 
 **File Path:** rules/01-project/04-modular-architecture.md  
-**Domain:** Backend Modularity & Architecture (e.g., E-commerce payment processing)  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22
 **Status:** Active  
 

@@ -1,7 +1,7 @@
 # 26 – Dependency Rules for Modular Architecture
 
 **File Path:** rules/07-modularity/27-dependency-rules.md  
-**Domain:** TODO: <fill with project domain, e.g., "E-commerce payment processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

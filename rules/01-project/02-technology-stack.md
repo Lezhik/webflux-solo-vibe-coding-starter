@@ -1,7 +1,7 @@
 # 02 – Technology Stack – Foundation
 
 **File Path:** rules/01-project/02-technology-stack.md  
-**Domain:** TODO: `<Insert Domain Context>` (Example: "E-commerce payment processing")  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22  
 **Status:** Active  
 

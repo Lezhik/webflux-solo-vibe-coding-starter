@@ -1,7 +1,7 @@
 # 23 – Static Resources – Versioned Delivery and Caching
 
 **File Path:** rules/06-build/23-static-resources.md  
-**Domain:** TODO: [Project Domain Name] (e.g., "Reactive Web Platform")  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Draft  
 

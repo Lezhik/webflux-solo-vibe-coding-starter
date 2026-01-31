@@ -1,7 +1,7 @@
 # 11 - HTML/CSS Rules - JTE Server-Side Rendering + Vue Hydration
 
 **File Path:** rules/03-coding-standards/11-html-css-rules.md  
-**Domain:** Server-Side Rendering (JTE) + Client-Side Hydration (Vue)  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23
 **Status:** Active  
 

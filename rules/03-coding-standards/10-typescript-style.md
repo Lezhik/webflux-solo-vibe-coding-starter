@@ -1,7 +1,7 @@
 # 10 – TypeScript/Vue Style Guide – Progressive Enhancement Standards
 
 **File Path:** rules/03-coding-standards/10-typescript-style.md  
-**Domain:** Hybrid UI Architecture (Server-Rendered JTE Templates + Vue Enhancements)  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23  
 **Status:** Active  
 

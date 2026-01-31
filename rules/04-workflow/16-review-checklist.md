@@ -2,7 +2,8 @@
 <!-- FILE_TITLE: "Vibe-Centric PR Review Checklist" -->
 <!-- FILE_PATH: rules/04-workflow/16-review-checklist.md -->
 
-**Domain:** TODO: <Business Context> (e.g., "E-commerce payment processing")  
+**File Path:** rules/04-workflow/16-review-checklist.md
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-23
 **Status:** Active  
 

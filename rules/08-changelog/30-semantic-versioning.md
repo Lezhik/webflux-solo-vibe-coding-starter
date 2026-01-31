@@ -3,7 +3,7 @@
 <!-- FILE_PATH: rules/08-changelog/30-semantic-versioning.md -->
 
 **File Path:** rules/08-changelog/30-semantic-versioning.md  
-**Domain:** TODO: <Project Domain, e.g., "Modular E-commerce Payments Platform">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
 **Status:** Active  
 

@@ -1,7 +1,7 @@
 # 06 – Naming Conventions – Semantic Intent & Cross-Stack Vibe Alignment
 
 **File Path:** rules/02-semantics/06-naming-conventions.md  
-**Domain:** TODO: <fill in business context, e.g., "E-commerce order and payment processing">  
+**Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")  
 **Last Updated:** 2026-01-22  
 **Status:** Active  
 
