@@ -1,7 +1,5 @@
 # Kilo Code Starter Project - Reactive Full-Stack Monorepo (Java/Spring Boot WebFlux/JTE + Vue/TypeScript)
 
-![Kilo Code Architecture](https://via.placeholder.com/800x200?text=Reactive+Full-Stack+Architecture+with+AI-Assisted+Workflows)
-
 ## 🚀 Overview
 This starter project provides a modular monorepo foundation for building reactive full-stack applications, emphasizing task-driven development with LLM-assisted blueprints. It's tailored for domains like fraud detection in payments, using non-blocking services and real-time visualizations. The setup enforces semantic clarity through `@Semantic` and `@Vibe` annotations, immutable feature versioning, and seamless cross-stack integration.
 
