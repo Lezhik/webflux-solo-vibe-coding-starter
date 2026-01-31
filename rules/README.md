@@ -19,7 +19,7 @@ The directory is organized into categories for foundational setup, semantics, co
 rules/
 ├── 01-project/                        # Foundational setup and constraints
 │   ├── 01-project-overview.md         # Goals, scope, domain context (e.g., "Secure user payments via Stripe")
-│   ├── 02-technology-stack.md         # Versions: Java 17+, Spring Boot 3.2, Vue 3.4, MongoDB 7, Gradle 8+
+│   ├── 02-technology-stack.md         # Versions: Java 21+, Spring Boot 3.5, Vue 3.4, MongoDB 7, Gradle 8.5+
 │   ├── 03-folder-structure.md         # Monorepo layout rules (e.g., backend/frontend split, static resources in /src/main/resources/static)
 │   └── 04-modular-architecture.md     # Boundaries: <domain>-module (e.g., user-module); no circular deps; DTO-only inter-module comms
 │

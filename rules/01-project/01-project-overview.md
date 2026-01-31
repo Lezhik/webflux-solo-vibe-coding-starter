@@ -15,9 +15,9 @@ This document establishes the foundational principles, boundaries, semantic anch
 
 ## 📌 Scope  
 - **Applies to:**  
-  - Backend modules (Java 21+, Spring Boot 3.2+, WebFlux, MongoDB reactive repositories).  
+  - Backend modules (Java 21+, Spring Boot 3.5+, WebFlux, MongoDB reactive repositories).  
   - Frontend components (Vue 3.4+, TypeScript 5+, Composition API).  
-  - Build and deployment (Gradle 8+, multimodule monorepo, static asset versioning).  
+  - Build and deployment (Gradle 8.5+, multimodule monorepo, static asset versioning).  
 - **Excludes:**  
   - Blocking synchronous patterns (e.g., JDBC or RestTemplate without async wrappers).  
   - Unapproved third-party libraries (see `02-technology-stack.md`).  

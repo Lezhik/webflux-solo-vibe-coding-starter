@@ -87,10 +87,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup JDK 17
+      - name: Setup JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
@@ -117,7 +117,7 @@ pluginManagement {
         mavenCentral()
     }
     plugins {
-        id("org.springframework.boot") version "3.2.0"
+        id("org.springframework.boot") version "3.5.10"
         id("io.spring.dependency-management") version "1.1.4"
         id("com.github.node-gradle.node") version "7.0.2"  // For frontend Node integration
     }
@@ -139,7 +139,7 @@ subprojects {
     }
     java {
         toolchain {
-            languageVersion = JavaLanguageVersion.of(17)
+            languageVersion = JavaLanguageVersion.of(21)
         }
     }
 }

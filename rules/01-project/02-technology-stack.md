@@ -20,12 +20,12 @@ Defines the foundational technology stack, including mandatory versions, tooling
 ---
 
 ## 🧠 Semantic Anchors  
-1. **Versioning DNA**: Use `@Semantic("LTS")` for long-term stable components (e.g., Java 17+); `@Semantic("Reactive")` for non-blocking patterns.  
+1. **Versioning DNA**: Use `@Semantic("LTS")` for long-term stable components (e.g., Java 21+); `@Semantic("Reactive")` for non-blocking patterns.  
 2. **Reactive Intent**: Tag interfaces and methods with `@Vibe("ReactiveBoundary")` to signal Flux/Mono usage and prevent blocking calls.  
 3. **Stack Taxonomy**:  
    ```mermaid
    graph TD
-     Backend[Java 17+ / Spring Boot 3.2 / WebFlux / MongoDB 7.x] -->|Reactive Streams| Integration[Gradle 8.x+ Unified Build]
+     Backend[Java 21+ / Spring Boot 3.5 / WebFlux / MongoDB 7.x] -->|Reactive Streams| Integration[Gradle 8.5+ Unified Build]
      Frontend[TypeScript 5.x / Vue 3.4 / Vite 4.4+] -->|Typed Props/Emits| Integration
      Integration -->|Versioned Assets| Static[ /static/vX/ ]
    ```
@@ -37,8 +37,8 @@ Defines the foundational technology stack, including mandatory versions, tooling
 ### Backend  
 | **Component**        | **Version**             | **Semantic Tag**        | **Critical Constraints**                                                                          |  
 |----------------------|-------------------------|-------------------------|---------------------------------------------------------------------------------------------------|  
-| Java (OpenJDK)       | ≥17 (LTS)               | `@Semantic("LTS")`      | Enforce via `java.toolchain.languageVersion = JavaLanguageVersion.of(17)`; no proprietary JVMs.   |  
-| Spring Boot          | 3.2.x                   | `@Semantic("Reactive")` | WebFlux only (`spring-boot-starter-webflux`); ban `spring-boot-starter-web` for blocking MVC.     |  
+| Java (OpenJDK)       | ≥21 (LTS)               | `@Semantic("LTS")`      | Enforce via `java.toolchain.languageVersion = JavaLanguageVersion.of(21)`; no proprietary JVMs.   |  
+| Spring Boot          | 3.5.x                   | `@Semantic("Reactive")` | WebFlux only (`spring-boot-starter-webflux`); ban `spring-boot-starter-web` for blocking MVC.     |  
 | MongoDB Driver       | 4.10+ (for MongoDB 7.x) | `@Semantic("Eventual")` | Reactive streams exclusively (`Flux<Document>`, `Mono<Document>`); no synchronous queries.        |  
 
 ### Frontend  
@@ -79,8 +79,8 @@ Defines the foundational technology stack, including mandatory versions, tooling
    tasks.register("validateSemantics") {  
      doLast {  
        val javaVersion = JavaVersion.current()  
-       require(javaVersion >= JavaVersion.VERSION_17) {  
-         "@Semantic('LTS') violation: Java 17+ required for Spring Boot 3.2."  
+       require(javaVersion >= JavaVersion.VERSION_21) {  
+         "@Semantic('LTS') violation: Java 21+ required for Spring Boot 3.5."  
        }  
        // Integrate BlockHound for reactive validation  
        exec { commandLine("./gradlew :backend:blockHoundAgent") }  

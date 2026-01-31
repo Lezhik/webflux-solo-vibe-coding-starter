@@ -58,35 +58,36 @@ The lifecycle integrates LLM-driven automation to streamline solo or team develo
 
 ## 📁 Core Directory Tree  
 ```
-kilo-code/  
+project-name/  
+├── rules/                              # kilocode rules
 ├── backend/  
-│   └── modules/{domain}-module/       # e.g., payment-fraud-module/src/main/java/... (WebFlux services)  
+│   └── modules/{domain}-module/        # e.g., payment-fraud-module/src/main/java/... (WebFlux services)  
 ├── frontend/  
-│   └── src/features/{verb}-{domain}/  # e.g., detect-fraud/src/components/... (Vue SFCs)  
+│   └── src/features/{verb}-{domain}/   # e.g., detect-fraud/src/components/... (Vue SFCs)  
 ├── shared/  
-│   └── models/                        # Cross-stack contracts (base DTOs)  
-├── tasks/                             # Task-driven hub (NEW: Centralized backlog management)  
+│   └── models/                         # Cross-stack contracts (base DTOs)  
+├── tasks/                              # Task-driven hub (NEW: Centralized backlog management)  
 │   ├── domains/  
-│   │   └── {domain}/                  # e.g., payment-fraud-detection/  
-│   │       ├── incomplete.md          # Priority-sorted backlog (High→Med→Low); LLM-populated  
-│   │       └── completed.md           # Auto-archived on PR merge via CI  
+│   │   └── {domain}/                   # e.g., payment-fraud-detection/  
+│   │       ├── incomplete.md           # Priority-sorted backlog (High→Med→Low); LLM-populated  
+│   │       └── completed.md            # Auto-archived on PR merge via CI  
 │   └── global/  
-│       ├── sprint-backlog.md          # Cross-domain sprint overview & progress  
+│       ├── sprint-backlog.md           # Cross-domain sprint overview & progress  
 │       └── sprint-planning/  
-│           └── sprint-YYYY-MM.md      # Detailed sprint artifacts (e.g., goals, impediments)  
-├── features/                          # Immutable, versioned feature artifacts (NEW: Lifecycle core)  
-│   └── {kebab-slug}/                  # e.g., detect-fraud-patterns/  
-│       └── v{version}/                # Semantic versioning (e.g., v1.0, v1.1)  
-│           ├── semantic-diagram.md    # Mermaid graph with @Semantic/@Vibe tags  
-│           ├── dto/                   # Mirrored contracts  
-│           │   ├── {Feature}Dto.java  # Java (e.g., FraudAlertDto)  
-│           │   └── {Feature}Dto.ts    # TypeScript mirror  
-│           ├── services/              # Backend: WebFlux reactors (e.g., FraudPatternService.kt)  
-│           ├── components/            # Frontend: Reusable Vue SFCs (e.g., FraudDashboard.vue)  
+│           └── sprint-YYYY-MM.md       # Detailed sprint artifacts (e.g., goals, impediments)  
+├── features/                           # Immutable, versioned feature artifacts (NEW: Lifecycle core)  
+│   └── {kebab-slug}/                   # e.g., detect-fraud-patterns/  
+│       └── v{version}/                 # Semantic versioning (e.g., v1.0, v1.1)  
+│           ├── semantic-diagram.md     # Mermaid graph with @Semantic/@Vibe tags  
+│           ├── dto/                    # Mirrored contracts  
+│           │   ├── {Feature}Dto.java   # Java (e.g., FraudAlertDto)  
+│           │   └── {Feature}Dto.ts     # TypeScript mirror  
+│           ├── services/               # Backend: WebFlux reactors (e.g., FraudPatternService.kt)  
+│           ├── components/             # Frontend: Reusable Vue SFCs (e.g., FraudDashboard.vue)  
 │           ├── tests/  
 │           │   └── test-data-profiles/ # YAML/JSON scenarios (e.g., high-velocity.yaml)  
-│           └── README.md              # @Vibe summary, sprint goals, task links  
-└── [other roots]                      # docs/, gradle/, static/ (versioned assets in backend/static/v{X}.{Y}/)  
+│           └── README.md               # @Vibe summary, sprint goals, task links  
+└── [other roots]                       # docs/, gradle/, static/ (versioned assets in backend/static/v{X}.{Y}/)  
 ```
 
 ### Example: Task in `incomplete.md`  

@@ -63,7 +63,7 @@ This creates a single, optimized image for the reactive app, combining backend J
 
 ```dockerfile  
 # Stage 1: Backend builder (Gradle)  
-FROM gradle:8.4-jdk17 AS backend-builder  
+FROM gradle:8-jdk21 AS backend-builder  
 WORKDIR /app  
 COPY gradle.properties settings.gradle .  
 COPY backend ./backend  
@@ -79,7 +79,7 @@ COPY frontend .
 RUN npm run build  
 
 # Stage 3: Runtime image (JRE, non-root)  
-FROM eclipse-temurin:17-jre-alpine  
+FROM eclipse-temurin:21-jre-alpine  
 WORKDIR /app  
 
 # Copy artifacts  
@@ -188,11 +188,11 @@ jobs:
           fi  
           echo "VERSION=$VERSION" >> $GITHUB_ENV  
 
-      - name: Set up JDK 17  
+      - name: Set up JDK 21  
         uses: actions/setup-java@v4  
         with:  
           distribution: temurin  
-          java-version: 17  
+          java-version: 21  
           cache: gradle  
 
       - name: Build backend  

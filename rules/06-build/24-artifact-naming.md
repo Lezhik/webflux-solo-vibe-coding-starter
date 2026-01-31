@@ -121,7 +121,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Set up JDK
         uses: actions/setup-java@v4
-        with: { java-version: '17' }
+        with: { java-version: '21' }
       - name: Build and Verify
         run: |
           ./gradlew clean build verifyArtifactNaming
