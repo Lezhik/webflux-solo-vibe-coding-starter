@@ -3,7 +3,7 @@
 **File Path:** rules/06-build/23-static-resources.md  
 **Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-25
-**Status:** Draft  
+**Status:** Active
 
 <!-- FILE_TITLE: Versioned Static Asset Management -->  
 <!-- FILE_PATH: rules/06-build/23-static-resources.md -->

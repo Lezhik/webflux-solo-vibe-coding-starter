@@ -4,7 +4,6 @@
 **Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-27
 **Status:** Active  
-**Owner:** @architecture-team  
 
 <!-- FILE_TITLE: Docker Containerization with Persistent MongoDB & CI/CD -->  
 <!-- FILE_PATH: rules/06-build/26-docker.md -->  

@@ -259,7 +259,8 @@ Mono<PaymentEvent> result = paymentFacade.processWithFraudCheck(request);
 ## 📜 Revision History  
 | Version | Date       | Author          | Changes Summary                                      |  
 |---------|------------|-----------------|------------------------------------------------------|  
-| 1.0     | 2026-01-22 | Initial Draft   | Basic hierarchy and facade rules                     |  
+| 1.0     | 2026-01-22 | LLM-Generated   | Basic hierarchy and facade rules                     |  
+
 ---
 
 **Key Innovations:**  

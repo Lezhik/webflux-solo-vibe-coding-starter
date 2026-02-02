@@ -3,7 +3,7 @@
 **File Path:** rules/05-test-strategy/21-boundary-scenarios.md  
 **Domain:** TODO: <business-context> (e.g., "Secure e-commerce payment processing with real-time event streaming")
 **Last Updated:** 2026-01-24
-**Status:** Draft  
+**Status:** Active
 
 <!-- FILE_TITLE: Boundary Testing Scenarios -->  
 <!-- FILE_PATH: rules/05-test-strategy/21-boundary-scenarios.md -->  
